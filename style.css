@@ -1,0 +1,42 @@
+.border{
+    border: 0px solid black;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.col{
+    background-color: cadetblue;
+    flex: 1;
+    box-sizing: border-box;
+    margin: 10px;
+    height: 25px;
+    padding: 0px 1% 0px;
+    text-align: center;
+    color: whitesmoke;
+}
+.col-2{
+    background-color: cadetblue;
+    flex: 2;
+    box-sizing: border-box;
+    margin: 10px;
+    height: 25px;
+    padding: 0px 1% 0px;
+    text-align: center;
+    color: whitesmoke;
+}
+.col-3{
+    background-color: cadetblue;
+    flex: 3;
+    box-sizing: border-box;
+    margin: 10px;
+    height: 25px;
+    padding: 0px 1% 0px;
+    text-align: center;
+    color: whitesmoke;
+}
